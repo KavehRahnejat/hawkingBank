@@ -1,1 +1,28 @@
 # hawkingBank
+
+Getting started (assuming you are on a unix system)
+
+1. Create a directory and clone the repository into it
+2. From the base directory run `python3 -m venv venv` to create a virtual environment folder
+3. Enter your virtual environment `source venv/bin/activate` note: all instructions for the rest of time will assume 
+you've done this (when you are done developing you can leave the virtual environment using `deactivate`)
+4. Install dependencies `pip install -r requirements.txt`
+5. Create a temporary folder (it's useful to have) `mkdir tmp`
+5. Run the development server `flask run`
+6. If all is well you should be able to visit `localhost:5000` in your browser and see a hello world
+
+To do:
+* Linter for code style and documenting
+* Clearly defined folder structure
+* Script for initialising dev environment
+* Config and variables framework
+* Unit test framework
+* Logging / monitoring framework
+* Threading support
+* ORM
+* Requests
+* Pipeline
+* etc.
+
+Other:
+* If you introduce new content that should not be added to the repo please add it to the `.gitignore`
