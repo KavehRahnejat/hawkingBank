@@ -22,7 +22,7 @@ If your code does not conform to the standards you will find the pylinter will
 refuse to allow you to commit. 
 
 If you must break code standards for a legit reason (it can happen) you can comment the code 
-with `# pylint: disable={error name}` please do not abuse this!
+with `# pylint: disable={error-name}` please do not abuse this!
 
 To do:
 * Script for initialising dev environment
