@@ -16,8 +16,6 @@ you've done this (when you are done developing you can leave the virtual environ
 You are now ready to develop. Stick to the master branch for now...
 
 To do:
-* Linter for code style and documenting
-* Clearly defined folder structure
 * Script for initialising dev environment
 * Config and variables framework
 * Unit test framework
