@@ -1,8 +1,6 @@
-"""
-    Here you should import any routes / apis you want to have included in the
-    application.
-
-"""
+#! /usr/bin/env python3
+# -*- coding: utf-8 -*-
+# pylint: disable=missing-docstring
 
 from flask import Flask
 

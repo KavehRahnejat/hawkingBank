@@ -17,7 +17,6 @@ mccabe==0.6.1
 more-itertools==4.3.0
 neo4j-driver==1.6.2
 neotime==1.0.0
-peewee==3.7.1
 pluggy==0.8.0
 prompt-toolkit==1.0.15
 py==1.7.0
