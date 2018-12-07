@@ -15,6 +15,15 @@ you've done this (when you are done developing you can leave the virtual environ
 
 You are now ready to develop. Stick to the master branch for now...
 
+All code will be linted according to the google coding standards:
+http://google.github.io/styleguide/pyguide.html
+
+If your code does not conform to the standards you will find the pylinter will
+refuse to allow you to commit. 
+
+If you must break code standards for a legit reason (it can happen) you can comment the code 
+with `# pylint: disable={error name}` please do not abuse this!
+
 To do:
 * Script for initialising dev environment
 * Config and variables framework
@@ -24,7 +33,14 @@ To do:
 * ORM
 * Requests
 * Pipeline
+* Non-dev server
 * etc.
 
 Other:
 * If you introduce new content that should not be added to the repo please add it to the `.gitignore`
+* All code will be linted according to the google coding standards:
+http://google.github.io/styleguide/pyguide.html
+* If your code does not conform to the standards you will find the pylinter will
+refuse to allow you to commit. 
+* If you must break code standards for a legit reason (it can happen) you can comment the code 
+with `# pylint: disable={error name}` please do not abuse this!
