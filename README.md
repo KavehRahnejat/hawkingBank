@@ -10,6 +10,10 @@ you've done this (when you are done developing you can leave the virtual environ
 5. Create a temporary folder (it's useful to have) `mkdir tmp`
 5. Run the development server `flask run`
 6. If all is well you should be able to visit `localhost:5000` in your browser and see a hello world
+7. Take the file `pre-commit` from your base directory and place it in `/.git/hooks`
+8. Run the command `chmod +x .git/hooks/pre-commit` to make the hook executable
+
+You are now ready to develop. Stick to the master branch for now...
 
 To do:
 * Linter for code style and documenting
